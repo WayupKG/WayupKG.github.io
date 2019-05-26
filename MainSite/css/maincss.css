@@ -1,0 +1,686 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Suez+One');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: Trebuchet MS, Helvetica;
+}
+/* Стили для фиксированной шапки */
+
+/*.fixed {
+  z-index: 5000;
+  background-color: #fff;
+  border-bottom: 1px solid silver;
+}
+
+header.fixed #logo {
+  color: #343434;
+}
+
+.fixed #about a {color: #343434}
+.fixed #about a:hover {color: #7c7c7c}
+
+/* Главный блок на сайте ---------------------------------------------- */
+#top {
+  font-family: 'Pattaya', sans-serif;
+  width: 100%;
+  background-image: url(../SVG/2279943.svg);
+   background-blend-mode: multiply;
+  background-color: #2e3a44;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+header {
+
+}
+
+@media (min-width: 1001px) {
+  #top {
+    font-size: 1.5em;
+    height: 100%;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 651px) {
+  #top {
+    font-size: 1em;
+    height: 100%;
+  }
+ #wap span {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 650px) {
+  #top {
+    font-size: .8em;
+    padding-top: 50%;
+    height: 500px;
+  }
+  #wap span {
+    font-size: .8em;
+  }
+}
+
+@media (max-width: 450px) {
+  #top {
+    font-size: 0.9em;
+  }
+}
+
+#top h2 {
+  font-family: 'Pacifico', cursive;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 2em;
+  margin-top: 10%;
+  color: #449dfc;
+}
+#top h2 span {
+  color: #00ff6a;
+}
+/* Блок с возможностями ---------------------------------------------- */
+#main {
+  padding-bottom: 50px;
+  height: 400px;
+  float: left;
+  border-top: 2px solid silver;
+  background-color: #607d8b;
+  color: #fff;
+  font-size: 1.3em;
+}
+
+@media (min-width: 1401px) {
+  #main {
+    padding: 0 20%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1400px) {
+  #main {
+    padding: 0 10%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  #main div {
+    width: 98%!important;
+    margin-bottom: 20px;
+  }
+}
+
+#main div {
+  width: 48%;
+  margin-right: 2%;
+  float: left;
+}
+
+#main h2 {font-size: 3em}
+#main span {color: #c6c6c6}
+
+.intro {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.button-html {
+  display: block;
+  padding-top: 1em;
+  padding-left: 8.5em;
+  margin: 0 auto;
+}
+.button-html2 {
+  border: 2px solid #449dfc;
+  border-radius: 20px;
+  padding: 8px;
+  background-color: #2e91f4;
+  transition: 1s;
+}
+.button-html2:hover {
+   background-color: #15589b;
+}
+.button-html2:hover a {
+   color: #d2e2f2;
+}
+.button-html2 a {
+  color: #9fccf9;
+  text-decoration: none;
+}
+/*Блок CSS3 ---------------------------------------------- */
+
+.maincss {
+  width: 100%;
+  height: 600px;
+  background-color: #d85bff;
+  padding-bottom: 50px;
+  height: 400px;
+  float: left;
+  border-top: 2px solid silver;
+  background-color: #607d8b;
+  color: #fff;
+  font-size: 1.3em;
+  display: flex;
+}
+.maincss div {
+  width: 48%;
+}
+.text {
+  padding-left: 8%;
+  padding-top: 50px;
+  text-align: center;
+}
+.text h2 {font-size: 3em}
+.text span {
+  color: #c6c6c6;
+}
+.content {
+  color: red;
+}
+.three-container {
+  mar
+}
+canvas {
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/* Блок с преимуществами ---------------------------------------------- */
+
+#overview {
+  float: left;
+  background-image: url(../SVG/1054Vos.svg);
+
+  background-blend-mode: multiply;
+  background-color: #403f40;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 30px 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+#overview h2 {font-size: 4em}
+#overview h4 {color: #ccc; font-size: 1.5em}
+
+@media (min-width: 561px) {
+  #overview h2 {font-size: 4em}
+}
+
+@media (max-width: 560px) {
+  #overview h2 {font-size: 2em}
+}
+
+#overview .img {
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+  margin-top: 50px;
+}
+
+#overview .img:nth-child(odd) {
+  margin-left: 18%;
+}
+
+#overview img {
+  background: #fafafa;
+  padding: 5px;
+  border: 2px solid silver;
+  float: left;
+  width: 100%;
+  max-width: 500px;
+}
+.img1 {
+  transition: 1s;
+}
+.img1:hover {
+  border-radius: 20px;
+   transform: scale(1);
+  box-shadow: 0 0 30px #3b8e96;
+}
+.img2 {
+  transition: 1s;
+}
+.img2:hover {
+  border-radius: 20px;
+  transform: scale(1);
+  box-shadow: 0 0 25px #af39ed;
+}
+.img {
+  transform: scale(1);
+  transition: 2s;
+}
+.img:hover {
+  transform: scale(1.1);
+}
+
+.img-a {
+  color: #fff;
+}
+
+#overview span {
+  float: left;
+  width: 100%;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+@media (max-width: 700px) {
+  #overview .img {
+    width: 80%!important;
+    margin-right: 0!important;
+    margin-left: 10%!important;
+  }
+}
+
+
+
+
+/* Блок с контактами ---------------------------------------------- */
+#contacts {
+  width: 100%;
+  float: left;
+  padding-bottom: 40px;
+  padding-top: 70px;
+  border-top: 4px solid #ccc;
+  background: #f4f4f4;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: lighter;
+}
+
+#contacts h5 {font-size: 3em; color: #4f4f4f}
+
+#form_input {
+  margin-top: 15px;
+  font-size: 1.1em;
+}
+
+@media (min-width: 1051px) {
+  #form_input {
+    width: 35%;
+    margin-left: 38%;
+  }
+}
+
+@media (max-width: 1050px) {
+  #form_input {
+    width: 90%;
+    margin-left: 10%;
+  }
+}
+
+#form_input label {
+  color: #505050;
+  cursor: pointer;
+  font-size: 1.4em;
+  font-family: 'Roboto Slab', serif;
+}
+
+#form_input label > span {
+  color: #e87e7e;
+}
+
+#form_input input,#form_input textarea {
+  margin-bottom: 10px;
+  width: 70%;
+  padding: 10px 2%;
+  border-radius: 7px;
+  border: 2px solid silver;
+  font-size: 0.9em;
+  color: #4a4a4a;
+}
+
+#form_input input:focus, #form_input textarea:focus {
+  border-color: #333;
+}
+
+.btn {
+  float: left;
+  border-radius: 5px;
+  padding: 5px 9px;
+  font-size: 1.2em;
+  background-color: #ec6550;
+  text-shadow: #454545 0 0 2px;
+  cursor: pointer;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+}
+
+.btn:hover {
+  background-color: #c15443;
+}
+
+/* Вопросы и ответы */
+
+#faq {
+  background-color: #fff;
+  border-top: 2px dashed #e4e3e3;
+  width: 100%;
+  float: left;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+@media (min-width: 801px) {
+  #faq div {
+    width: 25%;
+    margin-left: 6%;
+    float: left;
+  }
+}
+
+@media (max-width: 800px) {
+  #faq div {
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+  }
+}
+
+#faq .title {
+  font-weight: lighter;
+  color: #a3a0ad;
+  margin-bottom: 20px;
+  font-size: 2.2em;
+}
+
+#faq .heading {
+  color: #7d7d7d;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+#faq p {
+  font-family: Arimo, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #4a4a4a;
+  font-size: 0.95em;
+  margin-bottom: 40px;
+}
+
+/*
+<canvas id="canvas-basic"></canvas>
+*/
+/*
+#canvas-basic {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}*/
+
+
+
+
+
+/*
+var granimInstance = new Granim({
+    element: '#canvas-basic',
+    direction: 'left-right',
+    isPausedWhenNotInView: true,
+    states : {
+        "default-state": {
+            gradients: [
+                ['#ff9966', '#ff5e62'],
+                ['#00F260', '#0575E6'],
+                ['#e1eec3', '#f05053']
+            ]
+        }
+    }
+});
+*/
+
+
+
+
+/*var granimInstance = new Granim({
+    element: '#canvas-complex',
+    direction: 'left-right',
+    isPausedWhenNotInView: true,
+    states : {
+        "default-state": {
+            gradients: [
+                [
+                    { color: '#833ab4', pos: .2 },
+                    { color: '#fd1d1d', pos: .8 },
+                    { color: '#38ef7d', pos: 1 }
+                ], [
+                    { color: '#40e0d0', pos: 0 },
+                    { color: '#ff8c00', pos: .2 },
+                    { color: '#ff0080', pos: .75 }
+                ],
+            ]
+        }
+    }
+});*/
+
+
+/*
+var granimInstance = new Granim({
+    element: '#canvas-image-blending',
+    direction: 'top-bottom',
+    isPausedWhenNotInView: true,
+    image : {
+        source: '../assets/img/bg-forest.jpg',
+        blendingMode: 'screen',
+    },
+    states : {
+        "default-state": {
+            gradients: [
+                ['#29323c', '#485563'],
+                ['#FF6B6B', '#556270'],
+                ['#80d3fe', '#7ea0c4'],
+                ['#f0ab51', '#eceba3']
+            ],
+            transitionSpeed: 7000
+        }
+    }
+});
+*/
+
+
+/* logo---------------------------------------------*/
+
+/*
+<div class="bloc-logo">
+    <canvas id="logo-canvas"></canvas>
+    <a href="index.html" class="logo-mask">Granim.js</a>
+</div>
+*/
+
+
+/*
+.bloc-logo {
+    position: relative;
+    width: 130px;
+    height: 49px;
+    float: left;
+}
+
+.bloc-logo canvas,
+.bloc-logo .logo-mask {
+    display: block;
+    width: 130px;
+    height: 49px;
+}
+
+.bloc-logo .logo-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 130px;
+    background-image: url("../img/logo-mask.png");
+    text-indent: -9999px;
+}
+*/
+
+
+/*
+var granimInstance = new Granim({
+    element: '#logo-canvas',
+    direction: 'left-right',
+    states : {
+        "default-state": {
+            gradients: [
+                ['#EB3349', '#F45C43'],
+                ['#FF8008', '#FFC837'],
+                ['#4CB8C4', '#3CD3AD'],
+                ['#24C6DC', '#514A9D'],
+                ['#FF512F', '#DD2476'],
+                ['#DA22FF', '#9733EE']
+            ],
+            transitionSpeed: 2000
+        }
+    }
+});
+*/
+
+
+
+/* menu --------------------------------- */
+
+/*
+<div class="canvas-interactive-wrapper">
+    <canvas id="canvas-interactive"></canvas>
+    <div class="cta-wrapper">
+        <a href="#default-state" id="default-state-cta" class="active">Default state</a>
+        <a href="#violet-state" id="violet-state-cta">Violet state</a>
+        <a href="#orange-state" id="orange-state-cta">Orange state</a>
+    </div>
+</div>
+*/
+/*
+.canvas-interactive-wrapper {
+    position: relative;
+    height: 300px;
+    text-align: center;
+}
+
+.canvas-interactive-wrapper canvas {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.canvas-interactive-wrapper .cta-wrapper {
+    margin-top: 130px;
+}
+
+.canvas-interactive-wrapper .cta-wrapper a {
+    position: relative;
+    display: inline-block;
+    padding: 3px 7px;
+    border: solid 1px transparent;
+    margin-right: 50px;
+    z-index: 1;
+    text-decoration: none;
+    color: #222;
+    transition: border .3s;
+}
+
+.canvas-interactive-wrapper .cta-wrapper a.active {
+    border-color: #222;
+}
+*/
+
+
+
+
+
+
+/*
+var granimInstance = new Granim({
+    element: '#canvas-interactive',
+    name: 'interactive-gradient',
+    elToSetClassOn: '.canvas-interactive-wrapper',
+    direction: 'diagonal',
+    isPausedWhenNotInView: true,
+    stateTransitionSpeed: 500,
+    states : {
+        "default-state": {
+            gradients: [
+                ['#B3FFAB', '#12FFF7'],
+                ['#ADD100', '#7B920A'],
+                ['#1A2980', '#26D0CE']
+            ],
+            transitionSpeed: 10000
+        },
+        "violet-state": {
+            gradients: [
+                ['#9D50BB', '#6E48AA'],
+                ['#4776E6', '#8E54E9']
+            ],
+            transitionSpeed: 2000
+        },
+        "orange-state": {
+            gradients: [ ['#FF4E50', '#F9D423'] ],
+            loop: false
+        }
+    }
+});
+
+// With jQuery
+$('#default-state-cta').on('click', function(event) {
+    event.preventDefault();
+    granimInstance.changeState('default-state');
+    setClass('#default-state-cta')
+});
+$('#violet-state-cta').on('click', function(event) {
+    event.preventDefault();
+    granimInstance.changeState('violet-state');
+    setClass('#violet-state-cta')
+});
+$('#orange-state-cta').on('click', function(event) {
+    event.preventDefault();
+    granimInstance.changeState('orange-state');
+    setClass('#orange-state-cta')
+});
+
+function setClass(element) {
+    $('.canvas-interactive-wrapper a').removeClass('active');
+    $(element).addClass('active');
+};
+*/
+
+
+
+
+
+
+
+
+
+/*https://github.com/juliangarnier/anime.git*/
