@@ -1,2 +1,2 @@
-# WayupKG.github.io
+# Adi Kambarov
 WayupKG
